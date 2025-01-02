@@ -1,3 +1,4 @@
+//KOMMENTARSTRICHE ENTFERNEN
 //using AK.Wwise;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ public class MusicHandler : MonoBehaviour
     public GameObject hero;
     public GameObject enemy;
     public float distanceModifier = 5.5f;
-    //AUSKOMMENTIEREN
+    //KOMMENTARSTRICHE ENTFERNEN
     //public RTPC energyGameParameter;
     //public RTPC dangerGameParameter;
 
@@ -36,7 +37,7 @@ public class MusicHandler : MonoBehaviour
     {
         if (newValue < 0 || newValue > 100) return;
         energyValue = newValue;
-        //AUSKOMMENTIEREN
+        //KOMMENTARSTRICHE ENTFERNEN
         //energyGameParameter.SetValue(gameObject, energyValue);
     }
 
@@ -44,7 +45,7 @@ public class MusicHandler : MonoBehaviour
     {
         if (newValue < 0 || newValue > 100) return;
         dangerValue = newValue;
-        //AUSKOMMENTIEREN
+        //KOMMENTARSTRICHE ENTFERNEN
         //dangerGameParameter.SetValue(gameObject, dangerValue);
     }
 }

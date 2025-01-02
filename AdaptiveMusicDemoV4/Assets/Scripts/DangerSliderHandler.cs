@@ -23,6 +23,6 @@ public class DangerSliderHandler : MonoBehaviour
     void OnSliderValueChanged(float newValue)
     {
         slider.value = newValue;
-        musicHandlerScript.ChangeEnergy(newValue);
+        musicHandlerScript.ChangeDanger(newValue);
     }
 }
